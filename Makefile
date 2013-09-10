@@ -1,4 +1,4 @@
-TARGET = hello
+TARGET = out/hello
 LIBS = -lm
 CC = gcc
 CFLAGS = -g -Wall
