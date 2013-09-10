@@ -1,5 +1,5 @@
+#include "commonp.h"
 #include "common.h"
-
 static void print_address(ADDRESS_p_t address_info)
 {
   printf("The address is:\n\t%s\n\t%s\n",
@@ -22,4 +22,5 @@ void print_intro(INTRO_p_t intro){
       intro->firstName,
       intro->lastName,
       intro->age);
+  print_an_address();
 }
