@@ -1,1 +1,2 @@
-script: "./run-tests.sh"
+before_script:
+  - make 
